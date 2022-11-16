@@ -21,6 +21,7 @@ const createTuit = (req, res) => {
     newTuit.liked = false;
     tuits.push(newTuit);
     res.json(newTuit);
+    newTuit.image = "NASA.jpg";
 }
 
 
